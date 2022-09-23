@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    height: 80vh;
+    font-family: 'Roboto', sans-serif;
+    background: gray;
+}
+.contenedor{
+    font-size: 20px;
+    margin-top: 70px;
+    display:flex;
+    width: 700px;
+    height: 600px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 40px;
+    background:gray;
+    box-shadow:  15px 15px 20px lightseagreen,-15px -15px 20px lightseagreen;
+}
+.botones{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin: 5px;
+    width: 200px;
+    height: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    background: lightseagreen;
+    border: none;
+    border-radius: 5px;
+    color: black;
+}
+.mostrarMensajes{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.mensajes{
+    margin-top: 0px;
+}
+h1{
+    color: lightseagreen;
+}
+h2{
+    margin-top: 15px;
+}
